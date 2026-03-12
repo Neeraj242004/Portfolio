@@ -14,7 +14,7 @@ const Hero = () => {
      <div className='container mx-auto px-6 flex flex-col md:flex-row items-center justify-between'>
          <div className='md:w-1/2 mb-10 md:mb-0'>
             <h1 className='text-4xl md:text-6xl font-bold mb-4'> Hi, i'm<span className='text-purple-600'> Neeraj Kumar </span> </h1>
-            <h2 className='text-2xl md:text-4xl font-semibold mb-6 typewriter'>Frontend  Developer</h2>
+            <h2 className='text-2xl md:text-4xl font-semibold mb-6 typewriter'>Full Stack Developer</h2>
             <p className='text-lg text-gray-400 mb:8'>I create stunning web experience with modern technologies and innovative design.</p>
             <div className='flex space-x-6 mt-8'>
                 <a href="#project" className='px-8 py-3 bg-purple-600 rounded-lg font-medium hover:bg-purple-700 transition duration-300'>View Work</a>
