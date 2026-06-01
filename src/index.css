@@ -20,19 +20,25 @@
 }
 
 .typewriter {
-    overflow: hidden;
-    border-right: 0.15em solid #8B5CF6;    
-    white-space: nowrap;
+  display: inline-block;
+  overflow: hidden;
+  border-right: 3px solid #8B5CF6;
+  white-space: nowrap;
+  animation: typing 3s steps(27, end) forwards,
+             blink .8s step-end infinite;
+}
+
+@keyframes typing {
+  from {
     width: 0;
-    animation: typing 3s steps(20,end) forwards, blink-caret 0.75s step-end 4;
+  }
+  to {
+    width: 100%;
+  }
 }
 
-@keyframes typing{
-    from {width: 0;}
-    to {width: 15ch;}
-}
-
-@keyframes blink-caret{
-    from, to{border-color: transparent;}
-    50% {border-color: #8B5CF6;}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }

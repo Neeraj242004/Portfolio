@@ -2,7 +2,8 @@ import { FaPaintBrush, FaTools } from "react-icons/fa";
 import { FaCode, FaDatabase, FaLightbulb, FaReact, FaServer } from "react-icons/fa6";
 import project1 from "./project1.png";
 import project2 from "./project2.png";
-import project3 from "./project3.png"
+import project3 from "./project3.png";
+import project4 from "./project4.png";
 
 export const aboutInfo = [
     {
@@ -53,14 +54,23 @@ export const skills =[
 ]
 
 export const projects =[
- {
-  title: "Foodi – Restaurant Website",
-  description: "A modern and responsive restaurant website featuring a dynamic menu, smooth animations, and a clean UI. Users can explore dishes, view sections, and enjoy a fast, mobile-friendly experience.",
-  image: project1,
-  tech: ["React", "Tailwind CSS", "Framer Motion"],
-  icons: [ FaCode, FaDatabase, FaLightbulb, FaReact, FaServer ],
-  demo: "#",
-  code: "#"
+{
+title: "Admin Dashboard UI",
+description: "Designed and developed a responsive admin dashboard with interactive charts, statistics cards, user management tables, and a modern navigation system. Focused on clean UI/UX, reusable React components, and mobile responsiveness.",
+image: project3,
+tech: ["React", "Tailwind CSS", "JavaScript", "Chart.js"],
+icons: [FaCode, FaLightbulb, FaReact],
+demo: "https://dashboard-ui-taupe-three.vercel.app/",
+code: "https://github.com/Neeraj242004/Dashboard-UI",
+},
+{
+title: "Foodi – Restaurant Website",
+description: "A modern and responsive restaurant website featuring a dynamic menu, smooth animations, and a clean UI. Users can explore dishes, view sections, and enjoy a fast, mobile-friendly experience.",
+image: project1,
+tech: ["React", "Tailwind CSS", "Framer Motion, Node.js,MongoDB,Express"],
+icons: [ FaCode, FaDatabase, FaLightbulb, FaReact, FaServer ],
+demo: "https://foodi-orcin-two.vercel.app/",
+code: "https://github.com/Neeraj242004/Foodi",
 },
 {
 title: "ShopEase – E-Commerce Website",
@@ -68,17 +78,17 @@ description: "A clean and responsive e-commerce web application with a modern pr
 image: project2, 
 tech: ["React", "Tailwind CSS", "Bootstrap"],
 icons: [FaCode, FaReact, FaServer],
-demo: "#",
-code: "#"
+demo: "https://flipkart-rho-one.vercel.app",
+code: "https://github.com/Neeraj242004/Flipkart"
 },
 {
   title: "Personal Portfolio Website",
   description: "A modern and minimal personal portfolio website built to showcase my frontend skills and projects. Designed with a clean UI, smooth animations, and fully responsive layout to provide an engaging user experience across all devices.",
-  image: project3,
+  image: project4,
   tech: ["React", "Tailwind CSS",  "Framer Motion"],
   icons: [ FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaDatabase, FaTools,],
-  demo: "#",
-  code: "#"
+  demo: "https://portfolio0204.netlify.app/",
+  code: "https://github.com/Neeraj242004/Portfolio",
 }
 
 

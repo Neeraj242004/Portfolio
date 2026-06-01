@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProjectCard = ({ title, description, image, tech }) => {
+const ProjectCard = ({ title, description, image, tech,demo, code }) => {
   return (
     <div className="bg-black rounded-2xl  overflow-hidden hover:-translate-y-2 transition duration-300 cursor-pointer">
       <img
@@ -10,7 +10,7 @@ const ProjectCard = ({ title, description, image, tech }) => {
       />
 
       <div className="p-6">
-        <h3 className="text-lg font-semibold  mb-2">
+        <h3 className="text-lg font-semibold text-white mb-2">
           {title}
         </h3>
 
@@ -28,10 +28,24 @@ const ProjectCard = ({ title, description, image, tech }) => {
             </span>
           ))}
           </div>
-          <div className="flex gap-2">
-              <a href="#" className='flex-1 text-center px-4 py-2 bg-purple-600 rounded-lg font-medium hover:bg-purple-700 transition duration-300'>View Work</a>
-             <a href="#" className='flex-1 text-center px-4 py-2 border border-purple-700 rounded-lg font-medium hover:bg-purple-900 transition duration-300'>Code</a>
-        </div>
+         <div className="flex gap-2">
+  <a
+    href={demo}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex-1 text-center px-4 py-2 bg-purple-600 rounded-lg font-medium hover:bg-purple-700 transition duration-300"
+  >
+    Live Demo
+      </a>
+      <a
+    href={code}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex-1 text-center px-4 py-2 border border-purple-700 rounded-lg font-medium hover:bg-purple-900 transition duration-300"
+  >
+    GitHub
+  </a>
+</div>
       </div>
     </div>
   );
