@@ -87,7 +87,7 @@ code: "https://github.com/Neeraj242004/Flipkart"
   image: project4,
   tech: ["React", "Tailwind CSS",  "Framer Motion"],
   icons: [ FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaDatabase, FaTools,],
-  demo: "https://portfolio0204.netlify.app/",
+  demo: "https://neeraj-portfolio-three.vercel.app",
   code: "https://github.com/Neeraj242004/Portfolio",
 }
 
