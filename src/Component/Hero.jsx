@@ -46,7 +46,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="/Neeraj_kumar_ReactJs_Frontend_Developer.pdf"
+              href="/Neeraj_Kumar_ReactJs_Frontend_Developer.pdf"
               download
               className="px-6 py-3 border border-gray-600 rounded-lg font-medium hover:bg-gray-800 transition duration-300 text-center"
             >
