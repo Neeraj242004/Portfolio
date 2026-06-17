@@ -3,7 +3,8 @@ import { FaCode, FaDatabase, FaLightbulb, FaReact, FaServer } from "react-icons/
 import project1 from "./project1.png";
 import project2 from "./project2.png";
 import project3 from "./project3.png";
-import project4 from "./project4.png";
+import project4 from "./project4.avif";
+import project5 from "./project5.png";
 
 export const aboutInfo = [
     {
@@ -54,6 +55,16 @@ export const skills =[
 ]
 
 export const projects =[
+
+{
+  title: "Real-Time Chatbox Application",
+  description:"A real-time chat application built with React, Node.js, Socket.IO, and MongoDB, featuring JWT authentication, instant messaging, image sharing, and a responsive UI.",
+  image: project5,
+  tech: ["React","Node.js","Express.js","MongoDB","Socket.IO","JWT","Tailwind CSS"],
+  icons: [FaReact,FaServer,FaDatabase,FaTools],
+  demo: "https://chatbox-psi-lovat.vercel.app",
+  code: "https://github.com/Neeraj242004/Chatbox",
+},
 {
 title: "Admin Dashboard UI",
 description: "Designed and developed a responsive admin dashboard with interactive charts, statistics cards, user management tables, and a modern navigation system. Focused on clean UI/UX, reusable React components, and mobile responsiveness.",
@@ -74,7 +85,7 @@ code: "https://github.com/Neeraj242004/Foodi",
 },
 {
 title: "ShopEase – E-Commerce Website",
-description: "A clean and responsive e-commerce web application with a modern product listing UI, smooth navigation, and user-friendly design. Users can browse products, view prices, and interact with cart actions in a fast, mobile-friendly experience.",
+description: "A modern e-commerce application with product listings, cart management, and a responsive interface for a seamless shopping experience.",
 image: project2, 
 tech: ["React", "Tailwind CSS", "Bootstrap"],
 icons: [FaCode, FaReact, FaServer],
@@ -83,7 +94,7 @@ code: "https://github.com/Neeraj242004/Flipkart"
 },
 {
   title: "Personal Portfolio Website",
-  description: "A modern and minimal personal portfolio website built to showcase my frontend skills and projects. Designed with a clean UI, smooth animations, and fully responsive layout to provide an engaging user experience across all devices.",
+  description:"A modern portfolio website built to showcase my projects and frontend skills with a clean, responsive design.",
   image: project4,
   tech: ["React", "Tailwind CSS",  "Framer Motion"],
   icons: [ FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaDatabase, FaTools,],
