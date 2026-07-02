@@ -27,7 +27,7 @@ const About = () => {
                    transition={{duration:0.9, ease:`easeOut`}}
                    viewport={{once: false, amount:0.2}}
                    className='w-full h-full object-cover'
-                   src="/Neerajbhardwaj.jpg" alt="Profile" />
+                   src="/Neerajbhardwaj.png" alt="Profile" />
                </div>
                <motion.div 
                 initial={{opacity:0, y:50}}

@@ -46,7 +46,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="/Neeraj_Kumar_ReactJs_Frontend_Developer.pdf"
+              href="/Neeraj_Kumar_ReactJs_Frontend_Developer_Resume.pdf"
               download
               className="px-6 py-3 border border-gray-600 rounded-lg font-medium hover:bg-gray-800 transition duration-300 text-center"
             >
@@ -100,7 +100,7 @@ const Hero = () => {
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-700 to-pink-600 blur-2xl opacity-40"></div>
 
             <img
-              src="/Neerajbhardwaj.jpg"
+              src="/Neeraj.png"
               alt="Neeraj Kumar"
               className="relative w-48 h-48 sm:w-56 sm:h-56 md:w-80 md:h-80 object-cover rounded-full border-4 border-purple-600 shadow-2xl"
             />

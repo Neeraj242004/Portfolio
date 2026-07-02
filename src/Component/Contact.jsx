@@ -158,7 +158,7 @@ const Contact = () => {
                 </a>
 
                 <a
-                  href="https://linkedin.com/in/neeraj-kumar-542096276"
+                  href="https://www.linkedin.com/in/neerajreact/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-full bg-black flex items-center justify-center text-white hover:bg-blue-600 transition duration-300"
