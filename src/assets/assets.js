@@ -62,8 +62,8 @@ export const projects =[
   image: project5,
   tech: ["React","Node.js","Express.js","MongoDB","Socket.IO","JWT","Tailwind CSS"],
   icons: [FaReact,FaServer,FaDatabase,FaTools],
-  demo: "https://chatbox-psi-lovat.vercel.app",
-  code: "https://github.com/Neeraj242004/Chatbox",
+  demo: "https://chatbox-taupe-theta.vercel.app/",
+  code: "https://github.com/Neeraj242004/chatbox",
 },
 {
 title: "Admin Dashboard UI",
